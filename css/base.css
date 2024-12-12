@@ -72,13 +72,15 @@ div#menu ul li a.selected {
   color:var(--c000000FF,#000);
   text-decoration:none;
 }
+
 .error {
   display: none;
-  background-color: var(--cFFFFCCFF,#ffc);
-  border-left: 5px solid var(--cFFCC66FF,#fc6);
-  color: var(--c000000FF,#000);
-  padding: 10px 10px 10px 15px;
+  background-color: #ffc;
+  border-left: 5px solid #fc6;
+  color: #000;
+  padding: 10px;
 }
+
 
 .default{
   font-size: 1.25em;

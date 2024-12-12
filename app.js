@@ -1,13 +1,9 @@
-function revealError(event) {
-  event.preventDefault();
-  const errorElement = document.querySelector('.error');
-    errorElement.style.display = 'block';
-}
+var button = document.querySelector("#btn");
 
-// Hide error message when page loads
-document.addEventListener('DOMContentLoaded', () => {
-  const errorElement = document.querySelector('.error');
-  if (errorElement) {
-    errorElement.style.display = 'none';
-  }
+button.addEventListener("click", function() {
+  let errorContent = document.querySelector(".error");
+
+  if(errorContent) {
+    errorContent.style.display = "block";
+  };
 });
